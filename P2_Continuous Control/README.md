@@ -6,7 +6,7 @@
 
 ### Introduction
 
-For this project, we worked with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. View the full report [here](https://github.com/mrbarbasa/drlnd-projects/blob/master/p2_continuous-control/Report.md).
+For this project, we worked with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. View the full report [here](https://github.com/udisinghania/Deep-reinforcement-learning-projects/blob/master/P2_Continuous%20Control/Report.md).
 
 ![Trained Agent][image1]
 

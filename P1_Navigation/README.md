@@ -56,4 +56,4 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ### Instructions
 
-Run or view the output of each cell in `Navigation.ipynb`. You would have to modify the files in `model.py` and `dqn_agent.py` to get similar results (based on the comments for each trial in part 4 of the notebook). I have left `model.py` and `dqn_agent.py` to their optimal settings after all the trials I've run.
+Run or view the output of each cell in `Navigation.ipynb`. Jupyter notebook calls functions from `model.py` and `dqn_agent.py`.

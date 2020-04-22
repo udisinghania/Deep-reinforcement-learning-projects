@@ -17,17 +17,17 @@ The implementation is a Dueling Deep Q-Network with three fully connected layers
 | number of episodes | 1000 |
 | max time steps per episode | 1000 |
 | starting epsilon value | 1.0 |
-| epsilon decay rate | 0.99 |
+| epsilon decay rate | 0.95 |
 
 *Tau is the percentage of weights from the local model to carry over to the target model during the soft update of target parameters; meanwhile, `1 - tau` is the percentage of target model weights to carry over.
 
 ## Plot of Rewards
 
-The plot below shows that, after 289 episodes, the agent is able to receive an average reward of 13 over the last 100 consecutive episodes.
+The plot below shows that, after 255 episodes, the agent is able to receive an average reward of 13 over the last 100 consecutive episodes.
 
 ![final_model_rewards_plot](./final_model.png)
 
-We optimized our code with few trials of hyperparameter tuning and got good results with epsilon decay of 0.99 and got a result of around 289 episodes. Our final weights are [this](./model_weights1.pth)
+We optimized our code with few trials of hyperparameter tuning and got good results with epsilon decay of 0.99 and got a result of around 255 episodes. Our final weights are [this](./model_weights1.pth)
 
 ## Ideas for Future Work
 

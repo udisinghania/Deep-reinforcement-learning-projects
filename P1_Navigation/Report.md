@@ -2,12 +2,12 @@
 
 ## Learning Algorithm
 
-The implementation is a simple Deep Q-Network with three fully connected layers: two hidden layers of 64 units each with ReLU activation and an output layer of 4 units (one for each action). The hyperparameters are as follows:
+The implementation is a Dueling Deep Q-Network with three fully connected layers: two hidden layers of 128 units each with ReLU activation and an output layer of 4 units (one for each action). The hyperparameters are as follows:
 
 | Hyperparameter | Value |
 | ------------- | ------------- |
-| first hidden layer units | 64 |
-| second hidden layer units | 64 |
+| first hidden layer units | 128 |
+| second hidden layer units | 128 |
 | replay buffer size | 1e6 |
 | batch size | 64 |
 | discount factor (gamma) | 0.99 |
@@ -33,4 +33,4 @@ We optimized our code with few trials of hyperparameter tuning and got good resu
 
 Ideas for improving the agent's performance are as follows:
 - Solve the environment in fewer than 200 episodes.
-- Applying Dueling DQN, priortized replay and Double DQN.
+- Applying priortized replay, Double DQN and Rainbow DQN.

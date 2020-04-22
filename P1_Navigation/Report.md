@@ -17,8 +17,7 @@ The implementation is a simple Deep Q-Network with three fully connected layers:
 | number of episodes | 1000 |
 | max time steps per episode | 1000 |
 | starting epsilon value | 1.0 |
-| ending epsilon value | 1e-3 |
-| epsilon decay rate | 0.95 |
+| epsilon decay rate | 0.99 |
 
 *Tau is the percentage of weights from the local model to carry over to the target model during the soft update of target parameters; meanwhile, `1 - tau` is the percentage of target model weights to carry over.
 
@@ -26,9 +25,9 @@ The implementation is a simple Deep Q-Network with three fully connected layers:
 
 The plot below shows that, after 291 episodes, the agent is able to receive an average reward of 13 over the last 100 consecutive episodes.
 
-![final_model_rewards_plot](./final_model_rewards_plot.png)
+![final_model_rewards_plot](./final_model.png)
 
-From the Final Run section of `Navigation.ipynb`, we have calculated that the average number of episodes required to solve the environment is 296, with a median of 289. This is from 10 trial runs of the manually-found optimal hyperparameters displayed in the table above.
+We optimized our code with few trials of hyperparameter tuning and got good results with epsilon decay of 0.99 and got a result of around 289 episodes.
 
 ## Ideas for Future Work
 

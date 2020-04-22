@@ -1,7 +1,3 @@
-# Note: This is code from the Udacity DQN solution
-# (https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn/solution)
-# but with changes to certain parameters.
-
 import numpy as np
 import random
 from collections import namedtuple, deque
@@ -103,7 +99,6 @@ class Agent():
         loss.backward()
         self.optimizer.step()
 
-        # ------------------- update target network ------------------- #
         self.soft_update(self.qnetwork_local, self.qnetwork_target, TAU)                     
 
     def soft_update(self, local_model, target_model, tau):

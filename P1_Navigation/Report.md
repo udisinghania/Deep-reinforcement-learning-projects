@@ -32,7 +32,5 @@ We optimized our code with few trials of hyperparameter tuning and got good resu
 ## Ideas for Future Work
 
 Ideas for improving the agent's performance are as follows:
-- Attempt a double DQN, dueling DQN, and prioritized experience replay.
 - Solve the environment in fewer than 200 episodes.
-- See how large the rewards can get before the environment is solved (do not stop at 13).
-- Improve the evaluation metric by increasing the window size in which to measure the agent's performance (such as the average score over the last 300 consecutive episodes instead of 100).
+- Applying Dueling DQN, priortized replay and Double DQN.

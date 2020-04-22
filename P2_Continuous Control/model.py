@@ -1,3 +1,5 @@
+#used DRLND model bi-pedal and did some hyper-parameter tuning
+
 import numpy as np
 
 import torch

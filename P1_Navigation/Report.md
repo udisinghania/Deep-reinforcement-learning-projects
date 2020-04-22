@@ -25,7 +25,7 @@ The implementation is a Dueling Deep Q-Network with three fully connected layers
 
 The plot below shows that, after 255 episodes, the agent is able to receive an average reward of 13 over the last 100 consecutive episodes.
 
-![final_model_rewards_plot](./final_model.png)
+![final_model_rewards_plot](./download(1).png)
 
 We optimized our code with few trials of hyperparameter tuning and got good results with epsilon decay of 0.99 and got a result of around 255 episodes. Our final weights are [this](./model_weights1.pth)
 

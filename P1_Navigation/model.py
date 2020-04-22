@@ -1,6 +1,3 @@
-# Note: This is code from the Udacity DQN solution
-# (https://github.com/udacity/deep-reinforcement-learning/tree/master/dqn/solution).
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

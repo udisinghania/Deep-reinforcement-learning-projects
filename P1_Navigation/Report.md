@@ -23,11 +23,11 @@ The implementation is a simple Deep Q-Network with three fully connected layers:
 
 ## Plot of Rewards
 
-The plot below shows that, after 291 episodes, the agent is able to receive an average reward of 13 over the last 100 consecutive episodes.
+The plot below shows that, after 289 episodes, the agent is able to receive an average reward of 13 over the last 100 consecutive episodes.
 
 ![final_model_rewards_plot](./final_model.png)
 
-We optimized our code with few trials of hyperparameter tuning and got good results with epsilon decay of 0.99 and got a result of around 289 episodes.
+We optimized our code with few trials of hyperparameter tuning and got good results with epsilon decay of 0.99 and got a result of around 289 episodes. Our final weights are [this](./model_weights1.pth)
 
 ## Ideas for Future Work
 

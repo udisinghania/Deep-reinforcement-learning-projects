@@ -1,4 +1,5 @@
 #used DRLND model bi-pedal and did some hyper-parameter tuning
+#(https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-bipedal)
 
 import numpy as np
 

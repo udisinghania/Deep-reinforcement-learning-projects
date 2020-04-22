@@ -20,8 +20,6 @@ The critic network has 3 fully connected layers: hidden layers of 256, 256 and t
 
 *Tau is the percentage of weights from the local model to carry over to the target model during the soft update of target parameters; meanwhile, `1 - tau` is the percentage of target model weights to carry over.
 
-## Results
-
 ## Plot of Rewards
 
 The plot below shows that, after 151 episodes, the agent is able to receive an average reward of 30 over the last 100 consecutive episodes.

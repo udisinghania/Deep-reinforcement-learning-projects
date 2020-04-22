@@ -56,4 +56,4 @@ The environment is considered solved when the average over 100 episodes of these
 
 ### Instructions
 
-Run or view the output of each cell in `Tennis.ipynb`. You would have to modify the file `ddpg_agent.py` to get similar results (based on the comments for each trial in part 4 of the notebook). I have left `model.py` and `ddpg_agent.py` to their optimal settings after all the trials I've run.
+Run or view the output of each cell in `Tennis.ipynb`.

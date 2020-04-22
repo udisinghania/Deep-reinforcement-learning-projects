@@ -1,4 +1,4 @@
-
+#used DRLND ddpg pendulum and did some hyper-parameter tuning
 import numpy as np
 import random
 import copy

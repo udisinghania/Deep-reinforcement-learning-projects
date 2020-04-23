@@ -3,7 +3,7 @@
 
 ## Motivation and Approach
 
-Firstly, I applied Udacity's DDPG pendulum on the continuous control and got the result to be diverging. There were many instances of trial and error, at few it worked but the number of episodes in which it solved were pretty high. And then, I applied Udacity's DDPG bipedal walker which solved the environment within 500 episodes. But the number of episodes didn't seem to decrease, with trials of hyperparameter tuning. Then, I thought of merging Bipedal walker code and pendulum code, as the main aim of continuous control is to both actions and similar to the mixing both of the sceranrios. This led to making my ddpg agent from pendulum and my actor-critic models from bipedal. Below, I have explained my actor-critic models briefly.
+Firstly, I applied Udacity's DDPG pendulum on the continuous control and got the result to be diverging. There were many instances of trial and error, at few it worked but the number of episodes in which it solved were pretty high. And then, I applied Udacity's DDPG bipedal walker which solved the environment within 500 episodes. But the number of episodes didn't seem to decrease, even with changing of OU Noise to Gaussian Noise. Then, I thought of merging Bipedal walker code and pendulum code, as the main aim of continuous control is to perform both actions and is similar to the mixing both of the scenarios. This led me to make my ddpg agent from pendulum and my actor-critic models from bipedal. Below, I have explained my actor-critic models briefly.
 
 ## Learning Algorithm
 

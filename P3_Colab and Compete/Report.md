@@ -2,7 +2,7 @@
 
 ## Learning Algorithm
 
-In this project, we used the Deep Deterministic Policy Gradients ([DDPG](https://arxiv.org/abs/1509.02971)) learning algorithm to solve the Tennis environment. DDPG is an off-policy model-free algorithm that uses neural networks to learn policies, even in high-dimensional and continuous action spaces. The implementation has two DDPG agents with shared actor and critic networks. Each agent uses the same actor network to take an action, sampled from a shared replay buffer.
+In this project, we used the Deep Deterministic Policy Gradients ([DDPG](https://arxiv.org/abs/1509.02971)) learning algorithm to solve the Tennis environment. DDPG is an off-policy model-free algorithm that uses neural networks to learn policies, even in high-dimensional and continuous action spaces. The implementation has two DDPG agents with actor and critic networks. Each agent uses the same actor network to take an action, sampled from a shared replay buffer.
 
 ## Actor
 State --> BatchNorm --> 128 --> ReLU --> 64 --> ReLU --> BatchNorm --> action --> tanh
@@ -46,5 +46,5 @@ Ideas for improving the agent's performance are as follows:
 - Attempt prioritized experience replay and D4PG.
 - Add lots of noise at the beginning and then reduce or remove it completely after a certain number of episodes.
 - Try to solve it within 500 episodes.
-- Implement MADDPG: separate actors, separate centralized critics, and a shared replay buffer.
+- Implement TRPO and MAPPO
 - Try a variation with: separate actors, one shared centralized critic, and a shared replay buffer.

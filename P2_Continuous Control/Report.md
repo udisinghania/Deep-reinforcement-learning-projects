@@ -1,5 +1,10 @@
 # Project 2 Report
 
+
+## Motivation and Approach
+
+Firstly, I applied Udacity's DDPG pendulum on the continuous control and got the result to be diverging. There were many instances of trial and error, at few it worked but the number of episodes in which it solved were pretty high. And then, I applied Udacity's DDPG bipedal walker which solved the environment within 500 episodes. But the number of episodes didn't seem to decrease, with trials of hyperparameter tuning. Then, I thought of merging Bipedal walker code and pendulum code, as the main aim of continuous control is to both actions and similar to the mixing both of the sceranrios. This led to making my ddpg agent from pendulum and my actor-critic models from bipedal. Below, I have explained my actor-critic models briefly.
+
 ## Learning Algorithm
 
 In this project, we apply the Deep Deterministic Policy Gradients ([DDPG](https://arxiv.org/abs/1509.02971)) learning algorithm to solve the Reacher environment. DDPG is an off-policy model-free algorithm that uses neural networks to learn policies, even in high-dimensional and continuous action spaces. The implementation is 20 copies of a DDPG agent with 2 fully connected layers: hidden layers of 256 and then 256 units, each with ReLU activation, and an output layer of 4 units with tanh applied in order to bound the output between -1 and 1. That was the actor network specifically. 
@@ -18,7 +23,7 @@ The critic network has 3 fully connected layers: hidden layers of 256, 256 and t
 | max time steps per episode | 1000 |
 | L2 weight decay | 0 |
 
-*Tau is the percentage of weights from the local model to carry over to the target model during the soft update of target parameters; meanwhile, `1 - tau` is the percentage of target model weights to carry over.
+*Tau is the percentage of weights from the local model to carry over to the target model during the soft update of target parameters; meanwhile, `1 - tau` is the percentage of target model weights to carry over. 
 
 ## Plot of Rewards
 

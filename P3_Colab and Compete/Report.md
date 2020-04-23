@@ -8,7 +8,7 @@ In this project, we used the Deep Deterministic Policy Gradients ([DDPG](https:/
 State --> BatchNorm --> 128 --> ReLU --> 64 --> ReLU --> BatchNorm --> action --> tanh
 
 ## Critic
-State --> BatchNorm --> 128 --> Relu --> 64 --> Relu --> action. The hyperparameters are as follows:
+State --> BatchNorm --> 128 --> Relu --> 64 --> Relu --> action.
 
 | Hyperparameter | Value |
 | ------------- | ------------- |

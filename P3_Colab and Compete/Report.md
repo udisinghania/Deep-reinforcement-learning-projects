@@ -27,7 +27,7 @@ State --> BatchNorm --> 128 --> Relu --> 64 --> Relu --> action.
 
 | Trial | # of Episodes to Solve | Description | Comments |
 | ------------- | ------------- | ------------- | ------------- |
-| Initial Run | 756 | Default params with tau 1e-3, batch size 1024, and critic LR 1e-3 | Baseline Reacher code with a change to tau |
+| Initial Run | 756 | Default params with tau 1e-3, batch size 1024, and critic LR 1e-3 | Change in tau |
 | Trial 2 | 789 | Tau 1e-1 | Not better than Initial Run |
 | Trial 3 | 1034 | Tau 3e-1 and critic LR 1e-4 | Better than Initial Run |
 | Trial 4 | 865 | Actor and Critic models without Batch norm, and also adding leakyReLU in critic method AND fc units from 128, 64 to 256 AND also tau= 1e-3 and critic lr = 1e-3 and buffer size = 1e5 | Better than Trial 3 |

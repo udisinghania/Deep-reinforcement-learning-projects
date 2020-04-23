@@ -158,8 +158,8 @@ class OUNoise:
         self.state = x + dx
         return self.state
     
-"""class GaussianNoise:
-   Gaussian noise regularizer.
+class GaussianNoise:
+   """Gaussian noise regularizer.
 
     Args:
         sigma (float, optional): relative standard deviation used to generate the
@@ -169,7 +169,7 @@ class OUNoise:
         is_relative_detach (bool, optional): whether to detach the variable before
             computing the scale of the noise. If `False` then the scale of the noise
             won't be seen as a constant but something to optimize: this will bias the
-            network to generate vectors with smaller values.
+            network to generate vectors with smaller values. """
     
 
     def __init__(self, sigma=0.1, is_relative_detach=True):
@@ -183,7 +183,7 @@ class OUNoise:
             scale = self.sigma * x.detach() if self.is_relative_detach else self.sigma * x
             sampled_noise = self.noise.repeat(*x.size()).normal_() * scale
             x = x + sampled_noise
-        return x """
+        return x
 
 class ReplayBuffer:
     """Fixed-size buffer to store experience tuples."""

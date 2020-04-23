@@ -6,7 +6,7 @@
 
 ### Introduction
 
-For this project, we worked with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment. View the full report [here](https://github.com/mrbarbasa/drlnd-projects/blob/master/p3_collab-compet/Report.md).
+For this project, we worked with the [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment. View the full report [here](https://github.com/udisinghania/Deep-reinforcement-learning-projects/blob/master/P3_Colab%20and%20Compete/Report.md).
 
 ![Trained Agent][image1]
 

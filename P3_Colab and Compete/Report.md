@@ -22,10 +22,10 @@ In this project, we used the Deep Deterministic Policy Gradients ([DDPG](https:/
 | Trial | # of Episodes to Solve | Description | Comments |
 | ------------- | ------------- | ------------- | ------------- |
 | [Initial Run] | 756 | Default params with tau 1e-3, batch size 1024, and critic LR 1e-3 | Baseline Reacher code with a change to tau |
-| [Trial 1] | 789 | Tau 1e-1 | Not better than Initial Run |
-| [Trial 2] | 1034 | Tau 3e-1 and critic LR 1e-4 | Better than Initial Run |
-| [Trial 3] | 865 | Actor and Critic models without Batch norm, and also adding leakyReLU in critic method AND fc units from 128, 64 to 256 AND also tau= 1e-3 and critic lr = 1e-3 and buffer size = 1e5 | Better than Trial 2 |
-| [Trial 4] | 1284 | Going back to original model with Gaussian noise| Worst results thus far |
+| [Trial 2] | 789 | Tau 1e-1 | Not better than Initial Run |
+| [Trial 3] | 1034 | Tau 3e-1 and critic LR 1e-4 | Better than Initial Run |
+| [Trial 4] | 865 | Actor and Critic models without Batch norm, and also adding leakyReLU in critic method AND fc units from 128, 64 to 256 AND also tau= 1e-3 and critic lr = 1e-3 and buffer size = 1e5 | Better than Trial 3 |
+| [Trial 5] | 1284 | Going back to original model with Gaussian noise| Worst results thus far |
 | [Final Run] | 756 | Default params with tau 1e-3, batch size 1024, and critic LR 1e-3 | Verifying Initial Run performs best |
 
 ## Plot of Rewards

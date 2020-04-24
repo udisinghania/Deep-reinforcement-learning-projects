@@ -16,7 +16,7 @@ Yes, we use replay buffer, as mentioned in the ddpg_agent.py. We use same experi
 
 Here, is the main change from the conventional DDPG pendulum code, we add separate noise to both the agents. In this, we apply OUNoise to both agents separately. In order to make both the agents have different as if they are performing independently.
 
-## Why you chose the particular model architecture for Actor/Critic?
+## Why do we choose the particular model architecture for Actor/Critic?
 
 In this agent, we have to solve MARL, so I used the basic bipedal code while adding Batch Normalization to make it more faster, so that it can perform more efficiently. I initially just added normal fc layers like 128 and 64 and after some changes I arrived at the below architecture. Trial 4 is bipedal actor/critic model, it gave us the result of 865 epsiodes.
 

@@ -1,16 +1,12 @@
-# Deep-reinforcement-learning-projects
-Deep Reinforcement Learning Nanodegree Projects
+# Deep Reinforcement Learning Portfolio
 
-Projects' code was most part of from the Udacity's [deep-reinforcement-learning](https://github.com/udacity/deep-reinforcement-learning) repository. After making some changes in the code, we implement the projects.
+This repo contains projects from the Udacity Deep RL Nanodegree:
+- Navigation using DQN
+- Continuous Control using DDPG
+- Collaboration & Competition using MADDPG
 
-1. [Project 1: Navigation](https://github.com/udisinghania/Deep-reinforcement-learning-projects/tree/master/P1_Navigation)
+## Tools
+- Python, PyTorch
+- Unity ML Environments
 
-2. [Project 2: Continuous Control](https://github.com/udisinghania/Deep-reinforcement-learning-projects/tree/master/P2_Continuous%20Control)
-
-3. [Project 3: Collaborate and Compete](https://github.com/udisinghania/Deep-reinforcement-learning-projects/tree/master/P3_Colab%20and%20Compete)
-
-
-
-
-
-
+Each subfolder includes a `README.md`, model file, report, and training code.
